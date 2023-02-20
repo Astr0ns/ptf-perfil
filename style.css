@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+/* MENU */
+.conteudo-header{
+    background: rgb(0, 0, 0);
+    box-shadow: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.conteudo-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.conteudo-header header ul{
+    display: flex;
+    list-style: none;
+}
+.conteudo-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.conteudo-header header nav ul li a:hover{
+    color: #8b53c0;
+}
+.nav-responsive{
+    background-color: #8b53c0;
+    color:#fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+/* I N I C I O */
+.inicio{
+    background-color: #8b53c0;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inicio .conteudo-banner{
+    
+    box-shadow: 5px 5px 5px 5px  #623a88;
+    padding: 20px;
+    background-color: black;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .conteudo-banner img{
+    margin-top: 40px;
+    border: 5px solid black;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
