@@ -1,0 +1,296 @@
+
+@media screen and (max-width: 768px) {
+    
+    
+}
+
+
+
+
+
+* {
+
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+body {
+    background-image: url('purple.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    color: white;
+    font-family: 'Noto Sans', sem serifa;
+}
+
+header {
+    text-align: left;
+    padding: 15px;
+    height: 40px;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 60px;
+    color: white;
+
+}
+
+
+h2 {
+    text-align: center;
+    margin: -63px -90px;
+    font-size: 40px;
+    color: white;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    margin: 80px 50px 0px 50px;
+    color: white;
+}
+
+a{
+    text-decoration: none; /*remove o detalhe do link*/
+    cursor: pointer;
+    color: #9900ff7a;
+    font-weight: 700;
+}
+
+li {
+    align-items: center;
+    display: inline-block; /*organiza em linha ou em fileira*/
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+li.informations {
+    text-align: center;
+    margin: 20px -15px 8px 50px;
+    border:#fff solid 1px;
+    border-radius: 20px;
+    cursor:default;
+    display: inline-block;
+}
+
+svg {
+    color: white;
+}
+
+.infos-social {
+    display: inline-block;
+}
+
+.infos-social li {
+    border: none;
+    background-color: transparent;
+}
+
+.img-pfp {
+    position: relative;
+    top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.pfp {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    margin-top: -220px;
+    border: 3px #B896FB solid;
+    box-shadow: 0px -15px 20px 5px #cca0fa;
+
+}
+
+.main1 {
+    background-color: transparent;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 90px auto 0 auto;
+    height: 480px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px;
+    box-shadow: 0px 0px 15px 20px #cca0fa;
+
+}
+
+.main2 {
+    background-color: transparent;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 90px auto 0 auto;
+    height: 480px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px;
+    box-shadow: 0px 0px 15px 20px #cca0fa;
+
+}
+.main3 {
+    background-color: transparent;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 90px auto 0 auto;
+    height: 600px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px;
+    box-shadow: 0px 0px 15px 20px #cca0fa;
+
+}
+
+span {
+    cursor: pointer;
+    border-bottom: 5px white solid;
+    border-radius: 5px;
+    color: white;
+}
+
+p.botao {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin: 60px 0px 0px 110px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 479px) {
+
+    html, body{
+        height: 190%;
+        width: 165%;
+    }
+
+    #background-img {
+        background-image: url('purple3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+    .main1 {
+        margin-top: 180px;
+        margin-left: 40px;
+    }
+    .main2 {
+        margin-top: 180px;
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    html, body{
+        background-image: url('purple.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .main1 {
+        margin-top: 180;
+        width: 280px;
+    }
+    .main2 {
+        margin-top: 180;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        background-image: url('purple2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main1 {
+        margin-top: 180;
+        width: 400px;
+    }
+    .main2 {
+        margin-top: 180;
+        width: 400px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 40px;
+        margin: -69px 100px;
+    }
+
+    p {
+        font-size: 20px;
+        margin: 80px 2px 2px -10px;
+    }
+
+}
