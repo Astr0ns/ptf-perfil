@@ -1,13 +1,4 @@
 
-@media screen and (max-width: 768px) {
-    
-    
-}
-
-
-
-
-
 * {
 
 
@@ -21,7 +12,7 @@ body {
     background-image: url('purple.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     color: white;
     font-family: 'Noto Sans', sem serifa;
@@ -42,7 +33,10 @@ h1 {
     color: white;
 
 }
-
+.h1-oef {
+    text-align: center;
+    margin: 10px;
+}
 
 h2 {
     text-align: center;
@@ -54,6 +48,22 @@ p {
     text-align: center;
     font-size: 20px;
     margin: 80px 50px 0px 50px;
+    color: white;
+}
+
+p.botao {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin: -1px -200px -10px 320px;
+    color: white;
+
+}
+p.botao2 {
+    display: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 00px 00px 5px;
     color: white;
 }
 
@@ -77,7 +87,15 @@ li {
 }
 li.informations {
     text-align: center;
-    margin: 20px -15px 8px 50px;
+    margin: 15px -55px -50px 80px;
+    border:#fff solid 1px;
+    border-radius: 20px;
+    cursor:default;
+    display: inline-block;
+}
+li.informations2{
+    text-align: center;
+    margin: 20px -55px -90px 100px;
     border:#fff solid 1px;
     border-radius: 20px;
     cursor:default;
@@ -122,7 +140,7 @@ svg {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     margin: 90px auto 0 auto;
-    height: 480px;
+    height: 500px;
     width: 500px;
     border-radius: 15px;
     box-shadow: 5px;
@@ -137,11 +155,26 @@ svg {
     -webkit-backdrop-filter: blur(10px);
     margin: 90px auto 0 auto;
     height: 480px;
-    width: 500px;
+    width: 900px;
     border-radius: 15px;
     box-shadow: 5px;
     box-shadow: 0px 0px 15px 20px #cca0fa;
-
+}
+.hr-main2 {
+   border: none;
+   border-top: 1px solid white;
+   margin: -60px 0px; 
+}
+.hr-sm {
+    border: none;
+    border-top: 1px solid white;
+    margin: -55px 0px -15px; 
+}
+.hr-main1 {
+    border: none;
+    border-radius: 50px;
+    border-top: 3px solid white;
+    margin: 80px 2px -50px;
 }
 .main3 {
     background-color: transparent;
@@ -164,13 +197,12 @@ span {
     color: white;
 }
 
-p.botao {
+ul img {
     display: inline-block;
-    text-align: center;
-    font-size: 20px;
-    margin: 60px 0px 0px 110px;
-    color: white;
-
+    align-items: center;
+    margin: 5px -250px -10px 320px;
+    height: 35px;
+    width: 35px;
 }
 
 
@@ -231,8 +263,6 @@ p.botao {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100%;
-        width: 100%;
     }
     .main1 {
         margin-top: 180px;
@@ -248,19 +278,19 @@ p.botao {
 @media screen and (max-width: 767px) {
 
     html, body{
-        background-image: url('purple.jpg');
+        background-image: url('purple2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100%;
+        height: auto;
         width: 100%;
     }
     
     .main1 {
-        margin-top: 180;
+        margin-top: 180px;
         width: 280px;
     }
     .main2 {
-        margin-top: 180;
+        margin-top: 180px;
         width: 280px;
     }
 }
@@ -273,11 +303,11 @@ p.botao {
         background-size: cover;
     }
     .main1 {
-        margin-top: 180;
+        margin-top: 180px;
         width: 400px;
     }
     .main2 {
-        margin-top: 180;
+        margin-top: 180px;
         width: 400px;
     }
     h1{
@@ -292,5 +322,41 @@ p.botao {
         font-size: 20px;
         margin: 80px 2px 2px -10px;
     }
+
+}
+
+@media screen and (max-width: 412px) {
+
+    html, body{
+        height: 100%;
+        width: 100%;
+    }
+
+    #background-img {
+        background-image: url('purple3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    h1.h1 {
+        font-size: 35px;
+    }
+    .sobre-mim {
+        margin-top: -20px;
+        font-size: 18px;
+    }
+    .main1 {
+        width: auto;
+    }
+    .main2 {
+        margin: 200px 2px;
+
+    }
+    p.botao {
+        display: inline-block;
+        align-items: center;
+        margin: 10px 8px 0px 85px;
+    }
+
 
 }
