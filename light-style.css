@@ -31,11 +31,13 @@ h1 {
     font-size: 50px;
     margin: 60px;
     color: white;
+    cursor: default;
 
 }
 .h1-oef {
     text-align: center;
-    margin: 10px;
+    margin: -60px;
+    cursor: default;
 }
 
 h2 {
@@ -43,19 +45,25 @@ h2 {
     margin: -63px -90px;
     font-size: 40px;
     color: white;
+    cursor: default;
 }
 p {
     text-align: center;
     font-size: 20px;
     margin: 80px 50px 0px 50px;
     color: white;
+    cursor: default;
+}
+.oef{
+    margin: 1px;
+    cursor: default;
 }
 
 p.botao {
     display: inline-block;
     text-align: center;
     font-size: 20px;
-    margin: -1px -200px -10px 320px;
+    margin: 15px -200px -10px 320px;
     color: white;
 
 }
@@ -66,11 +74,14 @@ p.botao2 {
     margin: 5px 00px 00px 5px;
     color: white;
 }
+p.sbr-mim {
+    margin: 65px;
+}
 
 a{
-    text-decoration: none; /*remove o detalhe do link*/
+    text-decoration:double; /*remove o detalhe do link*/
     cursor: pointer;
-    color: #9900ff7a;
+    color: #e1caff;
     font-weight: 700;
 }
 
@@ -145,7 +156,12 @@ svg {
     border-radius: 15px;
     box-shadow: 5px;
     box-shadow: 0px 0px 15px 20px #cca0fa;
-
+}
+.hr-main1 {
+    border: none;
+    border-radius: 50px;
+    border-top: 3px solid white;
+    margin: 80px 2px -50px;
 }
 
 .main2 {
@@ -154,7 +170,7 @@ svg {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     margin: 90px auto 0 auto;
-    height: 480px;
+    height: 500px;
     width: 900px;
     border-radius: 15px;
     box-shadow: 5px;
@@ -168,14 +184,9 @@ svg {
 .hr-sm {
     border: none;
     border-top: 1px solid white;
-    margin: -55px 0px -15px; 
+    margin: 75px 0px 13px; 
 }
-.hr-main1 {
-    border: none;
-    border-radius: 50px;
-    border-top: 3px solid white;
-    margin: 80px 2px -50px;
-}
+
 .main3 {
     background-color: transparent;
     background-size: cover;
@@ -223,7 +234,92 @@ ul img {
 
 
 
+            /*Código responsível*/
 
+
+@media screen and (max-width: 768px) {
+
+    body {
+        background-image: url('purple2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main1 {
+        margin-top: 180px;
+        width: 400px;
+    }
+
+    .main2 {
+        margin-top: 180px;
+        width: 400px;
+        height: 650px;
+    }
+
+    .main3 {
+        margin-top: 180px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: -69px 100px;
+    }
+
+    p {
+        font-size: 20px;
+        margin: 80px 2px 2px -10px;
+    }
+
+    li.informations {
+    text-align: center;
+    margin: 10px -35px 0px 40px;
+    border:#fff solid 1px;
+    border-radius: 20px;
+    cursor:default;
+    display: inline-block;
+    }
+
+    li.informations2{ /*html,css,javascript*/
+    text-align: center;
+    margin: 10px -95px 0px 100px;
+    border:#fff solid 1px;
+    border-radius: 20px;
+    cursor:default;
+    display: inline-block;
+    }
+
+    ul img {
+    display: inline-block;
+    align-items: center;
+    margin: 5px -5px 0px 73px ;
+    height: 35px;
+    width: 35px;
+    }
+
+    p.botao {
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        margin: 20px -95px -10px 123px;
+        color: white;
+    
+    }
+    
+    p.botao2 {
+        display: center;
+        text-align: center;
+        font-size: 20px;
+        margin: 5px 0px 00px 5px;
+        color: white;
+    }
+
+
+
+}
 
 
 
@@ -295,35 +391,40 @@ ul img {
     }
 }
 
-@media screen and (max-width: 768px) {
 
-    body {
-        background-image: url('purple2.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .main1 {
-        margin-top: 180px;
-        width: 400px;
-    }
-    .main2 {
-        margin-top: 180px;
-        width: 400px;
-    }
-    h1{
-        font-size: 40px;
-    }
-    h2 {
-        font-size: 40px;
-        margin: -69px 100px;
-    }
 
-    p {
-        font-size: 20px;
-        margin: 80px 2px 2px -10px;
-    }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 412px) {
 
